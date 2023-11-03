@@ -6,7 +6,7 @@ public class Basic_Move : MonoBehaviour {
 	public int Speed;
 	
 	void Update () {
-			
+		// 주석입니다.
 		if (Input.GetKey (KeyCode.LeftArrow)) {
                transform.Translate (Vector3.left * Speed * Time.deltaTime);
           	} 		  
